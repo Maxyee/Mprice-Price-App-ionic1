@@ -1,0 +1,3 @@
+For Mobile apps , we use the technology 
+1. AngularJs
+2. Ionic Framework

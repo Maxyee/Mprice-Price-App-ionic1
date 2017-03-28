@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="../manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="../lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="../cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="../js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-balanced">
+        <h1 class="title">mPrice</h1>
+      </ion-header-bar>
+
+      <ion-content>
+        <ion-list>
+          <ion-list-header>
+            Today
+          </ion-list-header>
+
+          <ion-item>
+            <ion-avatar item-left>
+              <img src="../img/alu.jpg">
+            </ion-avatar>
+            <h2>Alu</h2>
+            <h3>Price : 14 taka</h3>
+            <p>Listen, I've had a pretty messed up day...</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-avatar item-left>
+              <img src="assets/img/avatar-han.png">
+            </ion-avatar>
+            <h2>LalShak</h2>
+            <h3>Price : 10 taka </h3>
+            <p>I've got enough on my plate as it is, and I...</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-avatar item-left>
+              <img src="assets/img/avatar-rey.png">
+            </ion-avatar>
+            <h2>FullCopy</h2>
+            <h3>Price: 20 taka</h3>
+            <p>You will remove these restraints and leave...</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-avatar item-left>
+              <img src="assets/img/avatar-luke.png">
+            </ion-avatar>
+            <h2>Luke</h2>
+            <h3>Your thoughts betray you</h3>
+            <p>I feel the good in you, the conflict...</p>
+          </ion-item>
+        </ion-list>
+
+        <ion-list>
+          <ion-list-header>
+            YesterDay
+          </ion-list-header>
+
+          <ion-item>
+            <ion-avatar item-left>
+              <img src="assets/img/avatar-poe.png">
+            </ion-avatar>
+            <h2>Poe</h2>
+            <h3>New Ride</h3>
+            <p>I just upgraded my X-Wing. Next time...</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-avatar item-left>
+              <img src="assets/img/avatar-ben.png">
+            </ion-avatar>
+            <h2>Ben</h2>
+            <h3>Move Along</h3>
+            <p>These aren't the droids you're looking for...</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-avatar item-left>
+              <img src="assets/img/avatar-leia.png">
+            </ion-avatar>
+            <h2>Leia</h2>
+            <h3>You're My Only Hope</h3>
+            <p>I've placed information vital to the survival...</p>
+          </ion-item>
+
+          <ion-item>
+            <ion-avatar item-left>
+              <img src="assets/img/avatar-yoda.png">
+            </ion-avatar>
+            <h2>Yoda</h2>
+            <h3>Size matters not</h3>
+            <p>Do or do not. There is no try...</p>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+
+
+
+    <div class="tabs tabs-balanced">
+      <a class="tab-item" href="menus.html">
+        Home
+      </a>
+      <a class="tab-item" href="company.html">
+        Company
+      </a>
+      <a class="tab-item" href="dashboard.html">
+        DashBoard
+      </a>
+    </div>
+    </ion-pane>
+  </body>
+</html>

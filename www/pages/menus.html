@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="../manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="../lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="../cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="../js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-balanced">
+        <h1 class="title">Menus</h1>
+      </ion-header-bar>
+
+      <ion-content>
+        <div>
+          <div class="list">
+              <a class="item item-thumbnail-left" href="latest.html">
+                <img src="../img/latest.jpg">
+                <h2>Latest Price</h2>
+                <p>Nine Inch Nails</p>
+              </a>
+
+              <a class="item item-thumbnail-left" href="category.html">
+                <img src="../img/cat.jpeg">
+                <h2>Category</h2>
+                <p>Nine Inch Nails</p>
+              </a>
+
+              <a class="item item-thumbnail-left" href="company.html">
+                <img src="../img/com.jpg">
+                <h2>Company</h2>
+                <p>Nine Inch Nails</p>
+              </a>
+
+              <a class="item item-thumbnail-left" href="helpline.html">
+                <img src="../img/call.png">
+                <h2>Help Line</h2>
+                <p>Nine Inch Nails</p>
+              </a>
+
+              <a class="item item-thumbnail-left" href="news.html">
+                <img src="../img/cat6.jpg">
+                <h2>Agricultural News</h2>
+                <p>Nine Inch Nails</p>
+              </a>
+
+              <a class="item item-thumbnail-left" href="#">
+                <img src="../cover.jpg">
+                <h2>Pretty Hate Machine</h2>
+                <p>Nine Inch Nails</p>
+              </a>
+          </div>
+        </div>
+        <!--
+        <div class="list">
+          <label class="item item-input">
+            <span class="input-label">Mobile Number</span>
+            <input type="text">
+          </label>
+          <center><button class="button button-positive">
+            Enter
+          </button></center>
+        </div>
+      -->
+      </ion-content>
+
+
+
+    <div class="tabs tabs-balanced">
+      <a class="tab-item" href="menus.html">
+        Home
+      </a>
+      <a class="tab-item" href="company.html">
+        Company
+      </a>
+      <a class="tab-item" href="dashboard.html">
+        DashBoard
+      </a>
+    </div>
+    </ion-pane>
+  </body>
+</html>
